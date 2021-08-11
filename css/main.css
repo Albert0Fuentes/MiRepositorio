@@ -13,13 +13,13 @@ body {
 
 h1 {
     font-size: 2rem;
-    color:#6e8eac;
+    color:#ffffff;
 }
 
 h2 {
     font-size: 1.5rem;
     text-align: center;
-    border-bottom: 2px solid rgb(10, 0, 66);
+    border-bottom: 2px solid rgb(0, 223, 48);
 }
 
 header, main, footer {
@@ -30,8 +30,8 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color:#e0aa16;
-    color: rgb(247, 0, 0);
+    background-color:#00179b;
+    color: rgb(255, 255, 255);
 }
 
 header img {
