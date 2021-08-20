@@ -13,8 +13,8 @@ h1
 
 table
 {
-    background: cornsilk;
-    color: brown;
+    background: rgb(209, 206, 194);
+    color: rgb(230, 15, 15);
 }
 
 header
@@ -31,7 +31,7 @@ header
 
 header .Menu a
 {   
-    color: cyan;
+    color: rgba(6, 255, 255, 0.919);
     text-decoration: none;
     margin-right: 40 px;
     font-size: 18 px;
