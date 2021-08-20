@@ -1,0 +1,44 @@
+h1
+{
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+.main
+{
+    color: rgb(238, 238, 238);
+    font-size: 20px;
+}
+
+table
+{
+    background: cornsilk;
+    color: brown;
+}
+
+header
+{
+    width: 100%;
+    padding: 50 px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header .Menu a
+{   
+    color: cyan;
+    text-decoration: none;
+    margin-right: 40 px;
+    font-size: 18 px;
+
+}
+
+header.Menu a:hover
+{   
+    text-decoration: underline;
+}
