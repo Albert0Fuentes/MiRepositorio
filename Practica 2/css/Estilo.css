@@ -1,4 +1,7 @@
-h1
+
+  body {
+      background: rgba(39, 24, 24, 0.796);
+    }h1
 {
     font-style: italic;
     text-align: center;
@@ -31,6 +34,7 @@ header
 
 header .Menu a
 {   
+
     color: rgba(6, 255, 255, 0.919);
     text-decoration: none;
     margin-right: 40 px;
