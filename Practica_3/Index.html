@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="css/Java.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <article class="article_prob">
+      <h1>Practica 3</h1>
+
+      <h2>Ejercicio 1</h2>
+      <hr />
+      <section class="problem">
+        <p>
+          Desarrolle una función en JavaScript que permita leer 3 números y
+          devuelva el producto de los tres números.
+        </p>
+      </section>
+    </article>
+    <div class="contenedor">
+
+      <form action="">
+
+        <input type="text" id="n1" />
+
+        <p>*</p>
+
+        <input type="text" id="n2" />
+
+        <p>*</p>
+
+        <input type="text" id="n3" />
+
+        <p>=</p>
+
+        <input type="text" id="res" readonly />
+
+        <hr />
+
+        <input
+          class="btn"
+          type="button"
+          value="Producto"
+          onclick="Producto()"
+        />
+      </form>
+    </div>
+
+    <article class="article_prob">
+        <h2> Ejercicio 2</h2>
+        <hr>
+        <section class="problem">
+            <p>
+    Desarrolle una función en JavaScript que permita leer una
+temperatura en grados Celsios y devuelva el clima según la
+siguiente tabla:
+Temperatura
+            </p>
+<table  border="0" width="60%" id="table1" cellspacing="0" cellpadding="0">
+    <tr>
+        <td><b>
+            Frio
+        </b></td>
+        <td>
+          -10 °C – 15 °C
+        </td>
+        <tr>
+           <td><b>
+            Templado
+        </b></td>
+
+        <td>
+             26°C – 40 °C
+        </td>
+        </tr>
+        <tr>
+            <td><b>
+            Calor
+                </b>
+            </td>
+            <td>
+                > 40°C
+            </td>
+        </tr>
+       
+    </tr> 
+
+</table>
+        </section>
+
+    </article>
+
+     <div class="contenedor">
+
+      <form action="">
+        <input type="text" id="temp"/>   
+        <hr />        
+       
+         <input
+          class="btn"
+          type="button"
+          value="Resgistrar Clima"
+          onclick="Temperatura()"
+        />        
+      </form> 
+    </div>
+
+      <article class="article_prob">
+        <h2> Ejercicio 3</h2>
+        <hr>
+        <section class="problem">
+            <p>
+                Desarrolle una función en JavaScript que permita leer un
+numero y devuelva el factorial del mismo.
+            </p>            
+        </section>
+          </article>
+         <div class="contenedor">
+<form action="">
+     <input type="text" id="nf">
+    <button class="btn" type="button" onclick="Factorial();">Ingrese su Factorial</button>
+    <br>
+    <label id="rf"></label>
+
+</form>
+</div>        
+
+      <article class="article_prob">
+        <h2> Ejercicio 4</h2>
+        <hr>
+        <section class="problem">
+            <p>
+              Desarrolle una función en JavaScript que muestre la fecha
+actual.
+            </p>            
+        </section>
+          </article>          
+ <button class="btn" onclick="Fecha();"> Fecha</button>
+
+        
+
+           <p id="fecha"></p>
+
+      
+</div>  
+  </body>
+</html>
