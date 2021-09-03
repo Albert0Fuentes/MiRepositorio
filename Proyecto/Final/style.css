@@ -27,8 +27,8 @@ a {
   left: 0;
   height: 13rem;
   z-index: 1;
-  box-shadow: rgba(75, 131, 97, 0.25) 0px 30px 60px -12px inset,
-    rgba(18, 202, 33, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.967) 0px 18px 36px -18px inset;
 }
 
 .container {
@@ -75,7 +75,7 @@ a {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(9, 9, 9, 0.8);
   z-index: -1;
   opacity: 0;
   pointer-events: none;
@@ -89,7 +89,7 @@ a {
 
 /*Navegacion mostrar menu*/
 .nav__button {
-  background-color: rgb(8, 128, 28);
+  background-color: rgb(0, 0, 0);
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
@@ -97,7 +97,7 @@ a {
   top: 2rem;
   right: 2rem;
   z-index: 2000;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1rem 3rem rgb(0, 0, 0);
   text-align: center;
   cursor: pointer;
 }
@@ -111,7 +111,7 @@ a {
 .nav__icon::after {
   width: 2.5rem;
   height: 2px;
-  background-color: rgb(23, 199, 0);
+  background-color: rgb(250, 250, 250);
   display: inline-block;
 }
 
@@ -146,7 +146,7 @@ a {
   left: 0;
   width: 25%;
   height: 100vh;
-  background-color: #217c1591;
+  background-color: #00000091;
   padding: 4.4rem;
   display: flex;
   flex-direction: column;
@@ -280,7 +280,7 @@ a {
   position: fixed;
   width: 50px;
   height: 50px;
-  background: rgb(8, 165, 48);
+  background: rgb(0, 0, 0);
   bottom: 2rem;
   right: 2rem;
   display: flex;
@@ -384,7 +384,7 @@ a {
 }
 
 .btn:hover {
-  color: #c59d5f;
+  color: #8c6d40;
 }
 
 .third-grid {
