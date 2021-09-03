@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, minimum-scale=1"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Montserrat&family=Sacramento&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/b699c21610.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+            integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI="
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+            integrity="sha256-4hqlsNP9KM6+2eA8VUT0kk4RsMRTeS7QGHIM+MZ5sLY="
+            crossorigin="anonymous"
+        />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Turismo en Beni</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container-fluid">
+                <nav class="nav">
+                     <a href="index.html" class="logo">
+            <img src="img/logoo.jpeg" alt="logo"
+          /></a>
+
+                    <div class="nav__button">
+                        <span class="nav__icon"></span>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="turismo.html" class="nav-link">Turismo</a>
+                        </li>                       
+                        <li class="nav-item">
+                            <a href="menu.html" class="nav-link">Gastronomía</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="reserva.html" class="nav-link">Reservación</a
+                            >
+                        </li>
+            
+                    </ul>
+
+                    <ul class="icons">
+                        <a href="" class="icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" class="icon"><i class="fab fa-instagram"></i></a>
+                        <a href="" class="icon"><i class="fab fa-twitter"></i></a>
+                        <a href=""class="icon"><i class="fab fa-whatsapp"></i></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <article class="im_res" id="home">
+                <div class="container">
+                    <div class="premium-container">
+                        <h3 class="pr_titu-res">Reserve su cupo para poder conocer mas de este hermoso departamento</h3>
+                    </div>
+                    <div >
+                        <h1 class="title">
+                            Opina de nuestro Servicio
+                        </h1>
+                    </div>
+                </div>
+
+                <a class="go-top" href="#"><i class="fas fa-arrow-up"></i></a>
+            </article>
+
+            <section class="book" id="reservation">
+                <div class="container-fluid">
+                    <div class="book-card">
+                        <h2 class="section-title book-title">
+                            Seleccione una fecha y reserve ahora
+                        </h2>
+                        <div class="two-columns-grid">
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    id="first"
+                                    class="input"
+                                    placeholder="Nombres*"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    id="last"
+                                    class="input"
+                                    placeholder="Apellidos*"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="two-columns-grid">
+                            <div class="form-group">
+                                <input
+                                    type="email"
+                                    id="email"
+                                    class="input"
+                                    placeholder="Correo Electronico*"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    id="phone"
+                                    class="input"
+                                    placeholder="Celular"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="three-columns-grid">
+                            <div class="form-group">
+                                <input type="date" id="date" />
+                            </div>
+                            <div class="form-group">
+                                <select name="time" id="time">
+                                    <option value="">11:00</option>
+                                    <option value="">11:30</option>
+                                    <option value="">12:00</option>
+                                    <option value="">12:30</option>
+                                    <option value="">13:00</option>
+                                    <option value="">13:30</option>
+                                    <option value="">14:00</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="persons" id="persons">
+                                    <option value="">Persons*</option>
+                                    <option value="">1 Persona</option>
+                                    <option value="">2 Personas</option>
+                                    <option value="">3 Personas</option>
+                                    <option value="">4 Personas</option>
+                                    <option value="">5 Personas</option>
+                                </select>
+                            </div>
+                        </div>
+                        <a href="reservas.html" class="btn btn-book">Reservar Ahora</a>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <footer class="footer">
+                <p class="copyright">
+                    Copyright &copy; 2021
+                </p>
+            </footer>
+    
+            <script
+                src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                crossorigin="anonymous"
+            ></script>
+            <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+                integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0="
+                crossorigin="anonymous"
+            ></script>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script src="app.js"></script>
+            <script>
+                AOS.init();
+            </script>
+        </body>
+    </html>

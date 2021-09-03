@@ -2,372 +2,286 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b699c21610.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha256-4hqlsNP9KM6+2eA8VUT0kk4RsMRTeS7QGHIM+MZ5sLY="
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Turismo en Beni</title>
-    <link rel="stylesheet" href="estilos.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+
+    <!-- Inicio -->
+    <link rel="icon" type="image/jpg" href="img/logoo.jpeg" />
   </head>
   <body>
-    <header class="header" id="inicio">
-      <img class="hamburguer" src="img/hamburguesa.svg" alt="" />
-      <nav class="menu-navegacion">
-        <a href="#inicio">Inicio</a>
-        <a href="#historia">historia</a>
-        <a href="#datos_tecnicos">Datos tecnicos</a>
-        <a href="#lugares_visita">Lugares</a>
-        <a href="#fauna_flora">Galeria de Fauna</a>
-        <a href="#gastronomia">Gastronomia</a>
-        <a href="#galeria">Galeria</a>
-        <a href="#footer">Hoteles</a>
-      </nav>
-      <div class="contenedor head">
-        <h1 class="titulo">Turismo en Beni</h1>
-        <p class="copy">
-          Fauna Flora Habitad belleza un departamento con su propio secreto
-        </p>
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="nav">
+          <a href="index.html" class="logo">
+            <img src="img/logoo.jpeg" alt="logo"
+          /></a>
 
+          <div class="nav__button">
+            <span class="nav__icon"></span>
+          </div>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="turismo.html" class="nav-link">Turismo</a>
+            </li>
+            <li class="nav-item">
+              <a href="menu.html" class="nav-link">Gastronomía</a>
+            </li>
+            <li class="nav-item">
+              <a href="reservas.html" class="nav-link">Reservación</a>
+            </li>
+          </ul>
+
+          <ul class="icons">
+            <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="icon"><i class="fab fa-whatsapp"></i></a>
+          </ul>
+        </nav>
       </div>
     </header>
+
     <main>
-    
-      <section class="services contenedor" id="historia">
-        <h2 class="subtitulo">historia</h2>
-        <div class="contenedor-servicio">
-          <img src="img/img/Mapa Beni.png" alt="" />
-          <div class="checklist-servicio">
-            <div class="service">
-              <h3 class="n-service">
-                <span class="number">1</span>historia
+      <article class="im_index" id="home">
+        <section class="container">
+          <div class="premium-container">
+            <h3 class="pr_titu">
+              Fauna Flora Habitad belleza un departamento con su propio secreto
+            </h3>
+          </div>
+          <div>
+            <h1 class="title">Beni<br /></h1>
+          </div>
+        </section>
+        <a class="go-top" href="#"><i class="fas fa-arrow-up"></i></a>
+      </article>
+
+      <!-- Contenido Web -->
+      <section class="offers">
+        <div class="container">
+          <h2 class="section-title">Historia</h2>
+          <div class="three-columns-grid">
+            <div
+              class="grid-item"
+              data-aos="fade-right"
+              data-aos-offset="400"
+              data-aos-duration="1000"
+            >
+              <img src="img/Mapa Beni.png" alt="" width="200" />
+              <h3 class="subtitle">
+                <strong>Caracteristicas</strong> Departamentales
               </h3>
-              <p>
+              <p class="paragraph">
                 Beni es uno de los nueve departamentos que conforman el Estado
-                Plurinacional de Bolivia, Su capital es Trinidad. Está ubicado
-                en el centronorte del país, limitando al norte con la República
-                Federativa de Brasil, al este con el departamento de Santa Cruz,
-                al sur con el departamento de Cochabamba, al oeste con el
-                departamento de La Paz y al noroeste con el departamento de
-                Pando. Con una superficie territorial de 213.564 km², Beni es el
-                segundo departamento más extenso de Bolivia.
+                Plurinacional de Bolivia , su aniversario es el 18 de noviembre,
+                la capital es Trinidad y es considerado segundo departamento mas
+                grande del pais con una superficie de 213.564 km2.
               </p>
-              <h3 class="n-service">
-                <span class="number">2</span>Limitantes
+            </div>
+            <div
+              class="grid-item"
+              data-aos="fade-up"
+              data-aos-offset="400"
+              data-aos-duration="1000"
+            >
+              <img src="img/5.jpg" alt="" width="230" />
+              <h3 class="subtitle">
+                <strong>Limitantes </strong> Nacionales Internacionales
               </h3>
-              <p>
-                Beni es uno de los nueve departamentos que conforman el Estado
-                Plurinacional de Bolivia, Su capital es Trinidad. Está ubicado
-                en el centronorte del país, limitando al norte con la República
-                Federativa de Brasil, al este con el departamento de Santa Cruz,
-                al sur con el departamento de Cochabamba, al oeste con el
-                departamento de La Paz y al noroeste con el departamento de
-                Pando. Con una superficie territorial de 213.564 km², Beni es el
-                segundo departamento más extenso de Bolivia.
+              <p class="paragraph">
+                Está ubicado en el centronorte del país, limitando al norte con
+                la República Federativa de Brasil, al este con el departamento
+                de Santa Cruz, al sur con el departamento de Cochabamba, al
+                oeste con el departamento de La Paz y al noroeste con el
+                departamento de Pando.
               </p>
-              
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="services contenedor" id="datos_tecnicos">
-        <h2 class="subtitulo">Datos Tecnicos</h2>
-        <div class="contenedor-servicio">
-          <img src="img/img/Imagen Beni.jpg" alt="" />
-          <div class="checklist-servicio">
-            <div class="service">
-              <h3 class="n-service">
-                <span class="number">1</span>
-              </h3>
-              <p>
-                 <table border="0" width="100%" id="table1" cellspacing="0" cellpadding="0">
-          <tr>
-               <td>
-                    <b>Nombre Local</b></td>
-                    <td>Beni</td>
-            </tr>
-            <tr>
-                <td><b>Altitud: </b> </td>
-                <td> metros sobre el nivel del mar</td>
-            </tr>
-            <tr>
-                <td><b>Temperatura </b> </td>
-                <td>API DE TEMPERATURA</td>
-            </tr>
-            <tr>
-                <td><b>Fechas optimas</b> </td>
-                <td>fechas con mas visitas</td>
-            </tr>
-            <tr>
-                <td><b>Rios</b> </td>
-                <td>Nombre de Rios</td>
-            </tr>
-    </table>    
+            <div
+              class="grid-item"
+              data-aos="fade-left"
+              data-aos-offset="400"
+              data-aos-duration="1000"
+            >
+              <img
+                src="img/01-BENI-retoque-©ERG-1024x693.png"
+                alt=""
+                width="320"
+              />
+              <h3 class="subtitle"><strong>Danzas </strong> Etnia</h3>
+              <p class="paragraph">
+                Entre sus grupos étnicos, como los moxeños, itonamas, movimas,
+                chapacuras, mocetones, tacanas, siriononos, chacobos, pausernas,
+                chimanes y otros. Sus danzas tipicas son los Macheteros, es la
+                danza beniana más conocida dentro y fuera del país. Su origen es
+                colonial. Y representa la resurrección de Jesucristo y su
+                ascensión a los cielos, pero desde una interpretación nativa.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-<header class="header_lugares" id="lugares_visita">
-      <div class="contenedor head">
-        <h1 class="titulo">Turismo de nivel</h1>
-        <p class="copy">
-          RESEÑA DE TURISMO AL IGUAL QUE GASTRONOMIA
-        </p>
-        
-      </div>
-    </header>
-
-       <section class="services contenedor">
-            <h2 class="subtitulo">Lugares de Visita</h2>
-            <div class="contenedor-servicio">
-                <img src="img/img/Riberalta.jpg" alt="">
-                <div class="checklist-servicio">
-                    <div class="service">
-                        <h3 class="n-service"><span class="number">1</span>Riberalta</h3>
-                        <p>Esta es una de las hermosas comunidades del todo el departamento de
-          Beni, la cual está ubicada en la provincia Vaca Diez, en el noroeste
-          de Bolivia. Esta ciudad es conocida por el característico y pintoresco
-          trazado de sus calles y avenidas, también por sus antiguas casas las
-          cuales están construidas de madera y palmas.
-
-                        </p>
-                    </div>
-
-                </div>
+      <section class="customers">
+        <div class="container">
+          <h2 class="section-title">Nuestros Visitantes</h2>
+          <h3 class="section-subtitle">Historias de ellos</h3>
+          <div class="carousel">
+            <div>
+              <img src="img/c1.jfif" alt="" width="100" />
+              <p class="testimonial-paragraph">
+                El poder conocer los rios que oculta este hermoso departamento
+                me encanto!!
+              </p>
+              <h2 class="name">Carol page</h2>
+              <img src="img/exploracion.jpg" alt="" width="500" />
             </div>
-
-            <br>
-            
-            <div class="contenedor-servicio">
-                <img src="img/img/rurrenabaque.jpg" alt="">
-                <div class="checklist-servicio">
-                    <div class="service">
-                        <h3 class="n-service"><span class="number">2</span>Rurrenabaque</h3>
-                        <p>
-                            Este destino turístico de Beni es conocido como la puerta de entrada
-          para todas las aventuras de la Amazonia boliviana, y se ha consagrado
-          como el destino de ecoturismo más popular de toda Bolivia.   
-                        </p>
-                    </div>
-                </div>
+            <div>
+              <img src="img/c2.jfif" alt="" width="100" />
+              <p class="testimonial-paragraph">
+                Creo que fue experiencia alucinante recomiendo que visiten esta
+                ciudad
+              </p>
+              <h2 class="name">Tifany Grevorich</h2>
+              <img
+                src="img/Galeria-fotos-Bolivia-1-12-1024x562.jpg"
+                alt=""
+                width="500"
+              />
             </div>
-             <br>                
-                <div class="contenedor-servicio">
-                    <img src="img/img/Parque pantanal.jpg" alt="">
-                    <div class="checklist-servicio">
-                        <div class="service">
-                            <h3 class="n-service"><span class="number">3</span>Parque Nacional Pantanal</h3>
-                            <p>
-                                El Parque el Pantanal es un refugio de fauna silvestre ubicado en la
-          ciudad de la Trinidad. Aquí se encuentran diferentes especies de
-          animales entre ellos: caimanes, capibaras, serpientes, aves, ciervos y
-          demás animales de la zona
-                                </p>                          
-                            
-                            </div>
-                </div>
+            <div>
+              <img src="img/c3.jfif" alt="" width="100" />
+              <p class="testimonial-paragraph">
+                Un lugar bello muy grande la comunidad amables y muy serviciales
+              </p>
+              <h2 class="name">Lyan Breach</h2>
+              <img src="img/Riberalta.jpg" alt="" width="500" />
             </div>
-            <br>    
-                
-                <div class="contenedor-servicio">
-                    <img src="img/img/Loma cuchini.jpg" alt="">
-                    <div class="checklist-servicio">
-                        <div class="service">
-                            <h3 class="n-service"><span class="number">4</span>Loma Cuchini</h3>
-                            <p>Esta versión de pataca es una variante del fricasé y también es conocida como patasca cruceña (Santa Cruz, Bolivia), no hay duda de que su método de preparación es diferente a la pataca peruana, este es guiso de mote y carnes muy bueno de Bolivia, pero tiene la misma cualidad de curar una resaca como todas las otras patascas.</p>
-                        </div>
-    
-                    </div>
-                </div>
+            <div>
+              <img src="img/c4.jfif" alt="" width="100" />
+              <p class="testimonial-paragraph">
+                soy amante de las serpientes y me encanto observar una gran
+                variedad de especies
+              </p>
+              <h2 class="name">Steven tracer</h2>
+              <img src="img/anacondas.jpg" alt="" width="500" />
             </div>
-            <br>    
-                
-                <div class="contenedor-servicio">
-                    <img src="img/img/Laguna iserere.jpg" alt="">
-                    <div class="checklist-servicio">
-                        <div class="service">
-                            <h3 class="n-service"><span class="number">5</span>Laguna Iserere</h3>
-                            <p>
-                                Esta es una laguna de agua dulce ubicada en la provincia Moxos en el
-          departamento de Beni. Este es un lugar turístico que cuenta con una
-          fascinante historia y con impresionantes atardeceres que simplemente
-          nos dejaran maravillados cuando la visitemos.
-                            </p>
-                        </div>
-    
-                    </div>
-                </div>
+            <div>
+              <img src="img/zyro-image (1).png" alt="" width="100" />
+              <p class="testimonial-paragraph">
+                Una experiencia que nunca olvidare!!!!!
+              </p>
+              <h2 class="name">Tony Garten</h2>
+              <img src="img/turista1.jpg" alt="" width="500" />
             </div>
-            <br>    
-
-
-        </section>
-
-      <section class="gallery" id="fauna_flora">
-        <div class="contenedor">
-          <h2 class="subtitulo">Fauna-Flora </h2>
-          <div class="contenedor-galeria">
-            <img src="img/img/uno.jpg" class="img-galeria" alt="" />
-            <img src="img/img/dos.jpg" class="img-galeria" alt="" />
-            <img src="img/img/tres.jpg" class="img-galeria" alt="" />
-            <img src="img/img/cuatro.jpg" class="img-galeria" alt="" />
-            <img src="img/img/cinco.jpg" class="img-galeria" alt="" />
-            <img src="img/img/seis.jpg" class="img-galeria" alt="" />
           </div>
         </div>
       </section>
 
-
-      <header class="header_gastronomia"id="gastronomia">
-      <div class="contenedor head">
-        <h1 class="titulo">Gastronomia en Beni - Trinidad</h1>
-        <p class="copy">
-          La gastronomía beniana está ligada, por lo general, a las fiestas religiosas. 
-                Las especialidades perduran desde la época de la Colonia hasta nuestros días, ofreciendo variedades para los diferentes gustos. 
-                Entre ellas se encuentran el Keperi beniano, Masako, Surubí al Horno entre otros..
-        </p>
-        
-      </div>
-    </header>
-
-      <section class="services contenedor">
-            <h2 class="subtitulo">Platos Típicos del Beni</h2>
-            <div class="contenedor-servicio">
-                <img src="img/img/keperi.jpg" alt="">
-                <div class="checklist-servicio">
-                    <div class="service">
-                        <h3 class="n-service"><span class="number">1</span>Keperi Beniano</h3>
-                        <p> Es un plato preparado con carne vació, jugo de limón, pimienta, comino, ají nomoto, sal y agua. Al keperí al horno se lo acompaña con arroz con queso, ensalada de tomate y lechuga, yuca hervida o frita. Es sencilla la preparación de esta comida y sus ingredientes fáciles de encontrar. </p>
-                    </div>
-
-                </div>
+      <!-- contact -->
+      <section class="book" id="reservation">
+        <div class="container-fluid">
+          <div class="book-card">
+            <h2 class="section-title book-title">
+              Contactanos para que mejoremos
+            </h2>
+            <br /><br />
+            <div class="two-columns-grid">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="first"
+                  class="input"
+                  placeholder="Nombres*"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="email"
+                  class="input"
+                  placeholder="Asunto*"
+                />
+              </div>
             </div>
 
-            <br>
-            
-            <div class="contenedor-servicio">
-                <img src="img/img/majadito.jpg" alt="">
-                <div class="checklist-servicio">
-                    <div class="service">
-                        <h3 class="n-service"><span class="number">2</span>Majadito de Pato</h3>
-                        <p>El nombre del plato insigne de la región oriental, es una variación del término “majado” (“golpeado”), que por el acento de la región adopta dicha pronunciación, “Majao”. La razón es que la carne utilizada en esta delicia gastronómica es previamente machucada con un mortero madera llamado Tacú, con el fin de suavizarla. </p>
-                    </div>
+            <div class="two-columns-grid">
+              <div class="form-group">
+                <textarea
+                  rows="5"
+                  id="email"
+                  class="input"
+                  placeholder="Escriba su reseña aqui"
+                ></textarea>
+              </div>
+
+              <div class="form-group">
+                <div id="qrcode">
+                  <img
+                    src="img/WhatsApp-Image-2021-03-07-at-9.30.41-PM.jpeg"
+                    alt=""
+                    width="300"
+                  />
                 </div>
+              </div>
             </div>
-             <br>                
-                <div class="contenedor-servicio">
-                    <img src="img/img/masaco.jpg" alt="">
-                    <div class="checklist-servicio">
-                        <div class="service">
-                            <h3 class="n-service"><span class="number">3</span>Masaco Beniano</h3>
-                            <p>El masaco es un platillo característico del oriente de Bolivia, su ingrediente principal es la yuca, aunque existe también el masaco de plátano, arroz y maíz​, pueden combinarse con queso, charque2 o carne de cerdo. Suele consumirse acompañado de bebidas calientes tras la siesta.
-
-                                La preparación tradicional se realizaba en tacú​, aplastando la yuca, plátano o maíz ya cocido hasta formar una masa con trozos pequeños del alimento, actualmente existen preparaciones alternativas con otros tipos de mortero.</p>
-                        </div>
-    
-                    </div>
-                </div>
-            </div>
-            <br>    
-                
-                <div class="contenedor-servicio">
-                    <img src="img/img/patasca-boliviana.jpeg" alt="">
-                    <div class="checklist-servicio">
-                        <div class="service">
-                            <h3 class="n-service"><span class="number">4</span>Patasca</h3>
-                            <p>Esta versión de pataca es una variante del fricasé y también es conocida como patasca cruceña (Santa Cruz, Bolivia), no hay duda de que su método de preparación es diferente a la pataca peruana, este es guiso de mote y carnes muy bueno de Bolivia, pero tiene la misma cualidad de curar una resaca como todas las otras patascas.</p>
-                        </div>
-    
-                    </div>
-                </div>
-            </div>
-            <br>    
-                
-                <div class="contenedor-servicio">
-                    <img src="img/img/surubi-al-horno-3655.jpg" alt="">
-                    <div class="checklist-servicio">
-                        <div class="service">
-                            <h3 class="n-service"><span class="number">5</span>Surubi al Horno</h3>
-                            <p>
-                                Plato elaborado con surubí (pez de la región), yuca frita, arroz graneado, ensalada de lechuga y tomate.
-                                Este plato fue creado gracias a la leyenda del surubí que cuenta que el surubi apareció en un lago de esta región y desde entonces lo preparan.</p>
-                        </div>
-    
-                    </div>
-                </div>
-            </div>
-            <br>    
-
-
-        </section>
-
-
-      <section class="gallery" id="galeria">
-        <div class="contenedor">
-          <h2 class="subtitulo">Galeria de nuestros visitantes</h2>
-          <div class="contenedor-galeria">
-            <img src="img/img/uno.jpg" class="img-galeria" alt="" />
-            <img src="img/img/dos.jpg" class="img-galeria" alt="" />
-            <img src="img/img/tres.jpg" class="img-galeria" alt="" />
-            <img src="img/img/cuatro.jpg" class="img-galeria" alt="" />
-            <img src="img/img/cinco.jpg" class="img-galeria" alt="" />
-            <img src="img/img/seis.jpg" class="img-galeria" alt="" />
+            <a href="index.html" class="btn btn-book">Enviar</a>
           </div>
         </div>
       </section>
-
-
-      <div class="imagen-light">
-        <img src="img/close.svg" alt="" class="close" />
-        <img src="" alt="" class="agregar-imagen" />
-      </div>
-      <section class="contenedor" id="expertos">
-        <h2 class="subtitulo">Expertos en:</h2>
-        <section class="experts">
-          <div class="cont-expert">
-            <img src="img/img/catedral.jpg" alt="" />
-            <h3 class="n-expert">Turismo</h3>
-          </div>
-          <div class="cont-expert">
-            <img src="img/img/exploracion.jpg" alt="" />
-            <h3 class="n-expert">Aventura</h3>
-          </div>
-          <div class="cont-expert">
-            <img src="img/img/GASTRONOMIA.jpg" alt="" />
-            <h3 class="n-expert">Gastronomia</h3>
-          </div>
-        </section>
+      <section class="customers">
+        <div class="container">
+          <div class="carousel"></div>
+        </div>
       </section>
     </main>
-
-    <footer id="footer">
-      <div class="contenedor footer-content">
-        <div class="contact-us">
-          <h2 class="brand">Turismo en Beni</h2>
-          <p>Maravilla Natural y turistica de Beni</p>
-        </div>
-        <div class="social-media">
-          <a href="./" class="social-media-icon">
-            <i class="bx bxl-facebook"></i>
-          </a>
-          <a href="./" class="social-media-icon">
-            <i class="bx bxl-twitter"></i>
-          </a>
-          <a href="./" class="social-media-icon">
-            <i class="bx bxl-instagram"></i>
-          </a>
-        </div>
-      </div>
-      <div class="line"></div>
+    <footer class="footer">
+      <p class="copyright">Copyright &copy; 2021</p>
     </footer>
-    <script src="js/menu.js"></script>
-    <script src="js/lightbox.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
